@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*
-	CSS for my basic portfoloi website
+	CSS for my basic portfolio website
 	
 	Author: Andrew Jenkins
 	Date:   4.11.2021
@@ -28,6 +28,7 @@ header{
 	width: 100%;
 	background-color: rgb(20,20,20);
 }
+/*
 header:before {
     content:"";
     background-color: rgb(20,20,20);
@@ -37,7 +38,7 @@ header:before {
     left: -2000px;
     z-index: -1;
 }
-
+*/
 header > h1{
 	
 	font-family: 'Brush Script MT', cursive;
