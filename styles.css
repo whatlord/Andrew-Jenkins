@@ -22,7 +22,6 @@ body{
 	margin: auto;
 	color: rgb(130,130,130);
 	width: 100%;
-	font-size: 3.0em;
 }
 
 header{
@@ -44,18 +43,19 @@ header > h1{
 	
 	font-family: 'Brush Script MT', cursive;
 	color: rgb(130,30,30);
-	font-size: 6.0em;
+	font-size: 8.0em;
 	text-align: center;
 	margin: 0 auto;
 }
 header > h3{
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 0.5em;
 }
 
 nav{
 	position: relative;
 	text-align: center;
+	width: 100%
 	
 }
 
@@ -69,10 +69,10 @@ nav > ul > li{
 	padding: 20px;
 	margin: 0 40px 0 0;
 	list-style-type: none;
+	font-size: 2.5em;
 }
 
 li > a{
-	display: inline-block;
 	color: rgb(130,30,30);
 	text-decoration: none;
 }
@@ -107,8 +107,9 @@ img#headshot{
 }
 
 p {
-  margin: auto;
+  margin: auto 20px auto 20px;
   padding: 10px;
+  text-size: .5em;
 }
 
 h2{
@@ -116,23 +117,30 @@ h2{
 }
 ol
 {
- text-align: center;
  list-style-position: inside;
+ margin: auto;
 }
 ol > li
 {
  text-align: left;
- margin-left: 35%;
+ margin: auto;
 }
 
-div#contact > ol > li{
-	margin-left: 43%;
+div#links{
+	width: 40%;
+	margin:  auto auto 20px auto;
+	height: 10%;
+}
+
+div#links > ol > li {
+	font-size: 3.0em;
+	width: 80%;
 }
 
 hr{
 	border: 1px solid darkred;
 	color: darkred;
-	width: 30%;
+	width: 70%;
 }
 
 footer{
@@ -160,6 +168,9 @@ footer:before {
 }
 
 @media only screen and (min-width: 1025px){
+	header > h3{
+		font-size: 2.0em;
+	}
 	main{
 		width: 60%;
 		margin: auto;
@@ -169,5 +180,18 @@ footer:before {
 	}
 	p{
 		width: 50%;
+		margin: auto;
+	}
+	div#intro > ol{
+		width: 40%;
+	}
+	div#links{
+		width: 20%;
+	}
+	div#links > ol > li{
+		font-size: 1.0em;
+	}
+	nav > ul > li{
+		font-size: 1.8em;
 	}
 }
