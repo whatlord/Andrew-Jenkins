@@ -14,14 +14,15 @@ html{
 	font-family: Arial, sans-serif;
 	height: 100%;
 	overflow-x: hidden;
+	margin: 0px auto;
 }
 
 body{
+	margin: 0px auto;
 	color: rgb(130,130,130);
-	width: 100%;
+	width: 60%;
 	min-width: 300px;
 	max-width: 1440px;
-	margin: 0px auto;
 }
 
 header{
