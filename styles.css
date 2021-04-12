@@ -18,6 +18,7 @@ html{
 }
 
 body{
+	float: center;
 	margin: 0 auto 0 auto;
 	color: rgb(130,130,130);
 	width: 60%;
