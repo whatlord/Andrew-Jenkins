@@ -78,7 +78,7 @@ li > a{
 }
 
 li > a:hover{
-	color: rgb(170,100,100);
+	color: rgb(255,255,255);
 	text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ ol > li > a:visited{
 }
 
 li > a:visited:hover{
-	color: rgb(170,100,100);
+	color: rgb(255,255,255);
 	text-decoration: none;
 }
 
