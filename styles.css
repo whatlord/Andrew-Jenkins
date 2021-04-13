@@ -20,7 +20,7 @@ html{
 body{
 	horizontal-align: center;
 	margin: auto;
-	color: rgb(130,130,130);
+	color: rgb(255,255,255);
 	width: 100%;
 }
 
@@ -82,8 +82,8 @@ li > a:hover{
 	text-decoration: none;
 }
 
-li > a:visited{
-	color: rgb(130,100,100);
+ol > li > a:visited{
+	color: rgb(255,255,255);
 	text-decoration: none;
 }
 
